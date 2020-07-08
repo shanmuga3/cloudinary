@@ -1,9 +1,9 @@
 # Cloudinary API Wrapper for Laravel 5,6 and 7.
 
-[![Latest Version on Packagist](https://img.shields.io/packagist/v/shanmuga/cloudinary.svg?style=flat-square)](https://packagist.org/packages/shanmuga/cloudinary)
-[![Build Status](https://img.shields.io/travis/shanmuga/cloudinary/master.svg?style=flat-square)](https://travis-ci.org/shanmuga/cloudinary)
-[![Quality Score](https://img.shields.io/scrutinizer/g/shanmuga/cloudinary.svg?style=flat-square)](https://scrutinizer-ci.com/g/shanmuga/cloudinary)
-[![Total Downloads](https://img.shields.io/packagist/dt/shanmuga/cloudinary.svg?style=flat-square)](https://packagist.org/packages/shanmuga/cloudinary)
+[![Latest Version on Packagist](https://img.shields.io/packagist/v/shanmuga/cloudinary.svg?style=flat-square)](https://packagist.org/packages/shanmuga/laravel-cloudinary)
+[![Build Status](https://img.shields.io/travis/shanmuga/cloudinary/master.svg?style=flat-square)](https://travis-ci.org/shanmuga/laravel-cloudinary)
+[![Quality Score](https://img.shields.io/scrutinizer/g/shanmuga/cloudinary.svg?style=flat-square)](https://scrutinizer-ci.com/g/shanmuga/laravel-cloudinary)
+[![Total Downloads](https://img.shields.io/packagist/dt/shanmuga/cloudinary.svg?style=flat-square)](https://packagist.org/packages/shanmuga/laravel-cloudinary)
 
 This is where your description should go. Try and limit it to a paragraph or two, and maybe throw in a mention of what PSRs you support to avoid any confusion with users and contributors.
 
