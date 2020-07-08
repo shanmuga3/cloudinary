@@ -28,7 +28,7 @@ Modify your `.env` file to add the following information from [Cloudinary](http:
 CLOUDINARY_API_KEY=your_api_key
 CLOUDINARY_API_SECRET=your_api_secret_key
 CLOUDINARY_CLOUD_NAME=your_cloud_name
-
+```
 ### Optional
 
 ```
@@ -56,7 +56,7 @@ Run `php artisan vendor:publish --tag="LaravelCloudinary"`
 ### Usage
 
 
-### upload()
+## upload()
 
 ```php
 LaravelCloudinary::upload($filename, $publicId, array $options, array $tags);
@@ -71,7 +71,7 @@ with:
 
 returns the `CloudinaryWrapper`.
 
-### uploadVideo()
+## uploadVideo()
 
 ```php
 LaravelCloudinary::uploadVideo($filename, $publicId, array $options, array $tags);
@@ -86,7 +86,7 @@ with:
 
 returns the `CloudinaryWrapper`.
 
-### getPublicId()
+## getPublicId()
 
 ```php
 LaravelCloudinary::getPublicId()
@@ -94,7 +94,7 @@ LaravelCloudinary::getPublicId()
 
 returns the `public id` of the last uploaded resource.
 
-### getResult()
+## getResult()
 
 ```php
 LaravelCloudinary::getResult()
@@ -102,7 +102,7 @@ LaravelCloudinary::getResult()
 
 returns the result of the last uploaded resource.
 
-### show() + secureShow()
+## show() + secureShow()
 
 ```php
 LaravelCloudinary::show($publicId, array $options)
@@ -116,7 +116,7 @@ with:
 
 returns the `url` of the picture on Cloudinary (https url if secureShow is used).
 
-### showPrivateUrl()
+## showPrivateUrl()
 
 ```php
 LaravelCloudinary::showPrivateUrl($publicId, $format, array $options)
@@ -130,7 +130,7 @@ with:
 
 returns the `private url` of the picture on Cloudinary, expiring by default after an hour.
 
-### rename()
+## rename()
 
 ```php
 LaravelCloudinary::rename($publicId, $toPublicId, array $options)
@@ -144,7 +144,7 @@ with:
 
 renames the original picture with the `$toPublicId` id parameter.
 
-### destroyImage() + delete()
+## destroyImage() + delete()
 
 ```php
 LaravelCloudinary::destroyImage($publicId, array $options)
@@ -158,7 +158,7 @@ with:
 
 removes image from Cloudinary.
 
-### destroyImages()
+## destroyImages()
 
 ```php
 LaravelCloudinary::destroyImages(array $publicIds, array $options)
@@ -171,7 +171,7 @@ with:
 
 removes images from Cloudinary.
 
-### addTag()
+## addTag()
 
 ```php
 LaravelCloudinary::addTag($tag, $publicIds, array $options)
@@ -183,7 +183,7 @@ with:
 * `$publicIds`: images to apply tag to
 * `$options`: options for your uploaded resource, check the cloudinary documentation to know more
 
-### removeTag()
+## removeTag()
 
 ```php
 LaravelCloudinary::removeTag($tag, $publicIds, array $options)
@@ -195,7 +195,7 @@ with:
 * `$publicIds`: images to remove tag from
 * `$options`: options for your uploaded image, check the Cloudinary documentation to know more
 
-### createArchive()
+## createArchive()
 
 ```php
 LaravelCloudinary::createArchive(array $options, $archiveName, $mode)
@@ -209,7 +209,7 @@ with:
 
 creates a zip file on Cloudinary.
 
-### downloadArchiveUrl()
+## downloadArchiveUrl()
 
 ```php
 LaravelCloudinary::downloadArchiveUrl(array $options, $archiveName)
