@@ -23,6 +23,6 @@ class CloudinaryFacade extends Facade
      */
     protected static function getFacadeAccessor()
     {
-        return 'laravelcloudinary';
+        return 'laravel_cloudinary';
     }
 }

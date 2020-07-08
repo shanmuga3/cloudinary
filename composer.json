@@ -46,7 +46,7 @@
                 "Shanmuga\\LaravelCloudinary\\CloudinaryServiceProvider"
             ],
             "aliases": {
-                "LaravelCloudinary": "Shanmuga\\LaravelCloudinary\\CloudinaryFacade"
+                "LaravelCloudinary": "Shanmuga\\LaravelCloudinary\\Facades\\CloudinaryFacade"
             }
         }
     }

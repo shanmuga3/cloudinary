@@ -49,7 +49,6 @@ class CloudinaryServiceProvider extends ServiceProvider
         );
 
         $this->app->bind('laravel_cloudinary', function ($app) {
-            dd($app);
             return new LaravelCloudinary($app);
         });
 
